@@ -1,0 +1,45 @@
+/* Predefinições gerais */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+html
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(226, 165, 43)
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.conteudo {
+    max-width: 900px;
+    min-width: 400px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+.logo {
+    color: rgb(226, 43, 168);
+    font-size: 500%;
+}
